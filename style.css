@@ -1,0 +1,77 @@
+@font-face { font-family: 'comfortaa'; src: url('fonts/Comfortaa-VariableFont_wght.ttf'); }
+@font-face { font-family: 'comfortaa-regular'; src: url('fonts/Comfortaa-Regular.ttf'); }
+@font-face { font-family: 'comfortaa-bold'; src: url('fonts/Comfortaa-Bold.ttf'); }
+@font-face { font-family: 'comfortaa-light'; src: url('fonts/Comfortaa-Light.ttf'); }
+@font-face { font-family: 'comfortaa-medium'; src: url('fonts/Comfortaa-Medium'); }
+@font-face { font-family: 'comfortaa-semibold'; src: url('fonts/Comfortaa-SemiBold.ttf'); }
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background: #001C40;
+	color: #3C3C3C;
+	font-family: 'comfortaa';
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+
+}
+
+.header {
+        font-family: 'comfortaa-bold';
+        background-color: #BCBCBC;
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        justify-content: space-between;
+	position: fixed;
+	width: 100%;
+}
+
+.main {
+	background-color: #001C40;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid green;
+	min-height: 100vh;
+	padding-top: 46px;
+	padding-bottom: 46px;
+	flex-wrap: wrap;
+	gap: 15px;;
+
+}
+
+.subject {
+	background-color: #BCBCBC;
+	height: 200px;
+	width: 200px;
+	border: 2px solid red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+
+.footer {
+	font-family: 'comfortaa-bold';
+	display: flex;
+	flex-direction: row;
+	background-color: #00000f;
+	justify content: space-between;
+	margin-top: auto;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+}
+
