@@ -36,30 +36,32 @@ body {
 }
 
 .main {
-	background-color: #001C40;
+	background-color: #112339;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	border: 2px solid green;
 	min-height: 100vh;
 	padding-top: 46px;
 	padding-bottom: 46px;
 	flex-wrap: wrap;
-	gap: 15px;;
+	gap: 30px;
 
 }
 
 .subject {
 	background-color: #BCBCBC;
-	height: 200px;
-	width: 200px;
-	border: 2px solid red;
+	font-size: 22px;
+	height: 220px;
+	width: 220px;
+	border: 1px solid black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-shrink: 0;
 	flex-wrap: wrap;
+	border-radius: 20px;
+	filter: drop-shadow(1px 1px 4px black);
 }
 
 .footer {
