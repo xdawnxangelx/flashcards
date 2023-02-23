@@ -26,6 +26,7 @@ body {
 
 .header {
         font-family: 'comfortaa-bold';
+	text-shadow: 1px 1px 1px black;
         background-color: #BCBCBC;
         display: flex;
         flex-direction: row;
@@ -33,6 +34,7 @@ body {
         justify-content: space-between;
 	position: fixed;
 	width: 100%;
+	filter: drop-shadow(1px 1px 4px black);
 }
 
 .main {
